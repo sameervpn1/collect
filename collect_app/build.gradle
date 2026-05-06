@@ -229,7 +229,7 @@ android {
         lintConfig file("$rootDir/config/lint.xml")
         xmlReport true
     }
-    namespace 'com.sameervpn1.survey.collect'
+    namespace 'org.odk.collect.android'
 }
 
 configurations.all {
