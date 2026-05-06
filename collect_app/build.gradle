@@ -75,7 +75,7 @@ android {
     }
 
     defaultConfig {
-        applicationId('org.odk.collect.android')
+        applicationId('com.sameervpn1.survey.collect')
         minSdk libs.versions.minSdk.get().toInteger()
         targetSdkVersion libs.versions.targetSdk.get().toInteger()
         versionCode project.hasProperty('versionCode') ? project.getProperties()['versionCode'].toInteger() : 5112
@@ -229,7 +229,7 @@ android {
         lintConfig file("$rootDir/config/lint.xml")
         xmlReport true
     }
-    namespace 'org.odk.collect.android'
+    namespace 'com.sameervpn1.survey.collect'
 }
 
 configurations.all {

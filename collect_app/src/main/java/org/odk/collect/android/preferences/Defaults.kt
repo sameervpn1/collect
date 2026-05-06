@@ -13,9 +13,9 @@ object Defaults {
         get() {
             val hashMap = HashMap<String, Any>()
             // odk_server_preferences.xml
-            hashMap[ProjectKeys.KEY_SERVER_URL] = "https://demo.getodk.org"
-            hashMap[ProjectKeys.KEY_USERNAME] = ""
-            hashMap[ProjectKeys.KEY_PASSWORD] = ""
+            hashMap[ProjectKeys.KEY_SERVER_URL] = "https://kf.kobotoolbox.org"
+            hashMap[ProjectKeys.KEY_USERNAME] = "crp_ffnc2026"
+            hashMap[ProjectKeys.KEY_PASSWORD] = "crp@1234"
             // form_management_preferences.xml
             hashMap[ProjectKeys.KEY_AUTOSEND] = "off"
             hashMap[ProjectKeys.KEY_GUIDANCE_HINT] = "yes_collapsed"
